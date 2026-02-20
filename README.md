@@ -11,9 +11,13 @@ The IntelliReply-AI AI-Powered-Email-Reply-Generator reads the email content fro
 The system workflow:
 
 • Chrome Extension captures email content
+
 • Sends content to Spring Boot backend
+
 • Backend calls Gemini AI API
+
 • AI generates reply
+
 • Reply inserted into Gmail compose box
 
 This improves productivity and saves time.
@@ -23,9 +27,13 @@ This improves productivity and saves time.
 # 🎯 Project Objectives
 
 • Automate email reply writing
+
 • Generate professional replies using AI
+
 • Save user time
+
 • Integrate Chrome Extension with Spring Boot
+
 • Learn real-world AI integration
 
 ---
@@ -35,12 +43,15 @@ This improves productivity and saves time.
 ## Frontend
 
 • Chrome Extension
+
 • JavaScript
 
 ## Backend
 
 • Spring Boot
+
 • Java
+
 • WebClient
 
 ## AI Service
@@ -50,7 +61,9 @@ This improves productivity and saves time.
 ## Tools
 
 • IntelliJ 
+
 •VS Code
+
 • Chrome Browser
 
 ---
@@ -62,13 +75,17 @@ This improves productivity and saves time.
 Responsibilities:
 
 • Inject AI Reply button in Gmail
+
 • Capture email content
+
 • Call backend API
+
 • Insert generated reply
 
 Files:
 
 content.js
+
 manifest.json
 
 ---
@@ -78,13 +95,17 @@ manifest.json
 Responsibilities:
 
 • Receive email content
+
 • Send request to Gemini API
+
 • Process response
+
 • Return reply
 
 Files:
 
 EmailGeneratorController.java
+
 EmailGeneratorService.java
 
 ---
@@ -94,6 +115,7 @@ EmailGeneratorService.java
 Responsibilities:
 
 • Connect to Gemini API
+
 • Generate intelligent reply
 
 ---
@@ -120,6 +142,7 @@ Responsibilities:
 
 ## Architecture Flow
 
+```id="arch001"
 Gmail
 ↓
 Chrome Extension
@@ -134,7 +157,10 @@ Extension
 ↓
 Gmail
 
+```
+
 ---
+
 
 # 🗄 Database Design
 
@@ -147,6 +173,7 @@ The system generates replies dynamically.
 Future version may store:
 
 • Reply history
+
 • User preferences
 
 ---
@@ -175,6 +202,7 @@ Login with Google account
 
 ### Click
 
+```id="arch002"
 Get API Key
 
 ↓
@@ -184,6 +212,7 @@ Create API Key
 ↓
 
 Copy API Key
+```
 
 Example:
 
@@ -314,6 +343,14 @@ POST /api/email/generate
 Generated email reply text
 ```
 
+Refer API ENDPOINT folder for Api endpoints.
+
+---
+
+# 🗄️ Output
+
+Refer IntelliReply-AI folder for output screenshots.
+
 ---
 
 # ✅ Advantages
@@ -334,11 +371,7 @@ Generated email reply text
 
 # 🚀 Future Enhancements
 
-• Multiple tones
-
-Formal
-Casual
-Friendly
+• Multiple tones-Formal,Casual,Friendly
 
 • Reply history
 
@@ -346,39 +379,14 @@ Friendly
 
 • Cloud deployment
 
-• Outlook support
-
 • Mobile support
 
 ---
 
 # 🏁 Conclusion
 
-AI Email Writer Assistant is a real-world full-stack AI project that integrates:
+The IntelliReply-AI AI-Powered-Email-Reply-Generator is a powerful real-world application that integrates Chrome Extension, Spring Boot, and AI to automate email replies. It demonstrates strong full-stack development skills and practical AI integration.This project improves efficiency, saves time, and provides professional email responses instantly.
 
-Chrome Extension
-Spring Boot
-Gemini AI
 
-It helps users generate professional email replies instantly.
-
-This project demonstrates strong:
-
-• Full Stack Development
-• AI Integration
-• Backend Development
 • Chrome Extension Skills
 
----
-
-# 👩‍💻 Author
-
-Shwetha T
-
----
-
-# ⭐ Support
-
-If you like this project:
-
-Give it a ⭐ on GitHub
