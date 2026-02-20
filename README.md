@@ -185,7 +185,7 @@ Future version may store:
 ## Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/email-writer-assistant.git
+git clone https://github.com/shwethagandhi1711/IntelliReply-AI-AI-Powered-Email-Reply-Generator.git
 ```
 
 ---
@@ -343,6 +343,7 @@ POST /api/email/generate
 Generated email reply text
 ```
 
+
 Refer API ENDPOINT folder for Api endpoints.
 
 ---
@@ -387,6 +388,4 @@ Refer IntelliReply-AI folder for output screenshots.
 
 The IntelliReply-AI AI-Powered-Email-Reply-Generator is a powerful real-world application that integrates Chrome Extension, Spring Boot, and AI to automate email replies. It demonstrates strong full-stack development skills and practical AI integration.This project improves efficiency, saves time, and provides professional email responses instantly.
 
-
-• Chrome Extension Skills
 
