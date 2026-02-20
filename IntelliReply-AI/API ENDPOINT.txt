@@ -1,0 +1,55 @@
+POST http://localhost:8080/api/email/generate
+
+{ "emailContent": "Meeting request email", "tone": "friendly" }
+
+Hi [Sender Name],
+
+Thank you for reaching out regarding a meeting. I appreciate you taking the initiative.
+
+I'd be happy to connect and discuss [mention the general topic if you know it from the original email, otherwise you can say "the matters you'd like to discuss" or simply "further"].
+
+Could you please suggest a few preferred dates and times that work best for you in the coming days/week? Please also let me know if you have a preferred meeting platform (e.g., Zoom, Microsoft Teams) or if you were thinking of an in-person meeting.
+
+Alternatively, if it's easier, I'm happy to share some available slots from my calendar.
+
+Looking forward to hearing from you and finding a suitable time.
+
+Best regards,
+
+[Your Name]
+
+POST http://localhost:8080/api/email/generate
+
+{ "emailContent": "Meeting request email", "tone": "professional" }
+
+Dear [Sender's Name],
+
+Thank you for your meeting request. I appreciate you reaching out and would be happy to schedule a time to connect regarding [briefly mention the topic of the meeting if it was implied, otherwise you can say "this matter"].
+
+To help us find a suitable time, could you please suggest a few preferred dates and times that work best for your schedule?
+
+Additionally, to ensure a productive discussion, could you please share a brief agenda or the key points you'd like to cover? Please also let me know your preferred meeting format (e.g., virtual call via [Platform], phone call, or in-person if applicable).
+
+I look forward to hearing from you to finalize the details.
+
+Best regards,
+
+[Your Name]
+
+POST http://localhost:8080/api/email/generate
+
+{ "emailContent": "Meeting request email", "tone": "apologetic" }
+
+Dear [Sender Name],
+
+Thank you for reaching out and for your meeting request.
+
+I sincerely apologize, but I regret that I will be unable to make the proposed meeting time work due to a prior commitment/an unforeseen scheduling conflict. I am truly sorry for any inconvenience this may cause.
+
+I am very keen to connect and discuss this further, and I would be very grateful if we could explore an alternative time or date that works for both of us. Please let me know if there are other times that might suit you in the coming days, or if you prefer, I can suggest a few options.
+
+Thank you for your understanding and flexibility.
+
+Best regards,
+
+[Your Name]
