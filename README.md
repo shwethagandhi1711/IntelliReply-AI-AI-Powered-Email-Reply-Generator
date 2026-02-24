@@ -52,6 +52,10 @@ This improves productivity and saves time.
 
 • Java
 
+• Restfuls API
+
+• Project Lombok
+
 • WebClient
 
 ## AI Service
@@ -62,7 +66,13 @@ This improves productivity and saves time.
 
 • IntelliJ 
 
-•VS Code
+• VS Code
+
+• Postman
+
+• Github
+
+• Github Desktop
 
 • Chrome Browser
 
